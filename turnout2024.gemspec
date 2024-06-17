@@ -4,7 +4,7 @@ $:.unshift lib unless $:.include?(lib)
 require 'turnout/version'
 
 spec = Gem::Specification.new do |s|
-  s.name = 'turnout'
+  s.name = 'turnout2024'
   s.version = Turnout::VERSION
   s.summary = 'A Rack based maintenance mode plugin for Rails'
   s.description = 'Turnout makes it easy to put your Rails application into maintenance mode'

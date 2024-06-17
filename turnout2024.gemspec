@@ -10,13 +10,13 @@ spec = Gem::Specification.new do |s|
   s.description = 'Turnout makes it easy to put your Rails application into maintenance mode'
   s.files = Dir['README.*', 'MIT-LICENSE', 'rails/*.rb', 'config/**/*.rb', 'lib/**/*.rb', 'lib/tasks/*.rake', 'public/*']
   s.require_path = 'lib'
-  s.author = 'Adam Crownoble'
-  s.email = 'adam@codenoble.com'
-  s.homepage = 'https://github.com/biola/turnout'
+  s.author = 'Adam Crownoble, Peter Giacomo Lombardo'
+  s.email = 'pglombardo@hey.com'
+  s.homepage = 'https://github.com/pglombardo/turnout2024'
   s.license = 'MIT'
-  s.add_dependency('tilt','>= 1.4', '< 3')
-  s.add_dependency('rack', '>= 1.3', '< 3')
-  s.add_dependency('rack-accept', '~> 0.4')
+  s.add_dependency('tilt','>= 2.3', '< 3')
+  s.add_dependency('rack', '>= 3', '< 4')
+  s.add_dependency('rack-accept', '~> 0.4.5')
   s.add_dependency('i18n', '>= 0.7', '< 2')
   s.add_development_dependency('rack-test', '~> 0.6')
   s.add_development_dependency('rspec', '~> 3.0')

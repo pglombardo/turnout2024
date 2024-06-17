@@ -7,7 +7,7 @@ spec = Gem::Specification.new do |s|
   s.name = 'turnout2024'
   s.version = Turnout::VERSION
   s.summary = 'A Rack based maintenance mode plugin for Rails'
-  s.description = 'Turnout makes it easy to put your Rails application into maintenance mode'
+  s.description = 'Turnout makes it easy to put your Rails application into maintenance mode.  This is a fork and 2024 update of the original turnout gem by Biola University.'
   s.files = Dir['README.*', 'MIT-LICENSE', 'rails/*.rb', 'config/**/*.rb', 'lib/**/*.rb', 'lib/tasks/*.rake', 'public/*']
   s.require_path = 'lib'
   s.author = 'Adam Crownoble, Peter Giacomo Lombardo'
@@ -16,7 +16,7 @@ spec = Gem::Specification.new do |s|
   s.license = 'MIT'
   s.add_dependency('tilt','>= 2.3', '< 3')
   s.add_dependency('rack', '>= 3', '< 4')
-  s.add_dependency('rack-accept', '~> 0.4.5')
+  s.add_dependency('rack-accept', '~> 0.4')
   s.add_dependency('i18n', '>= 0.7', '< 2')
   s.add_development_dependency('rack-test', '~> 0.6')
   s.add_development_dependency('rspec', '~> 3.0')

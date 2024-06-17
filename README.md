@@ -25,7 +25,7 @@ Rails 3+
 --------
 In your `Gemfile` add:
 
-    gem 'turnout2024'
+    gem 'turnout2024', require: "turnout"
 
 then run
 

@@ -1,6 +1,10 @@
-Turnout [![Build Status](https://travis-ci.org/biola/turnout.svg?branch=master)](https://travis-ci.org/biola/turnout) [![Code Climate](https://codeclimate.com/github/biola/turnout.svg)](https://codeclimate.com/github/biola/turnout) [![Gem Version](https://badge.fury.io/rb/turnout.svg)](https://badge.fury.io/rb/turnout)
+Turnout2024 [![Code Climate](https://codeclimate.com/github/pglombardo/turnout2024.svg)](https://codeclimate.com/github/pglombardo/turnout2024) [![Gem Version](https://badge.fury.io/rb/turnout2024.svg)](https://badge.fury.io/rb/turnout2024)
 =======
-Turnout is [Rack](http://rack.rubyforge.org/) middleware with a [Ruby on Rails](http://rubyonrails.org) engine that allows you to easily put your app in maintenance mode.
+Turnout2024 is [Rack](http://rack.rubyforge.org/) middleware with a [Ruby on Rails](http://rubyonrails.org) engine that allows you to easily put your app in maintenance mode.
+
+This project is forked from the original [turnout gem](https://github.com/biola/turnout) which unfortunately hasn't been updated in 6+ years.
+
+The gem name has been updated but everything internally is still `Turnout`.  Pull requests are more than welcome!
 
 Features
 ========
@@ -21,7 +25,7 @@ Rails 3+
 --------
 In your `Gemfile` add:
 
-    gem 'turnout'
+    gem 'turnout2024'
 
 then run
 

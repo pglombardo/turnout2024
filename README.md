@@ -1,10 +1,14 @@
-Turnout2024 [![Code Climate](https://codeclimate.com/github/pglombardo/turnout2024.svg)](https://codeclimate.com/github/pglombardo/turnout2024) [![Gem Version](https://badge.fury.io/rb/turnout2024.svg)](https://badge.fury.io/rb/turnout2024)
-=======
+# Turnout2024
+
 Turnout2024 is [Rack](http://rack.rubyforge.org/) middleware with a [Ruby on Rails](http://rubyonrails.org) engine that allows you to easily put your app in maintenance mode.
 
-This project is forked from the original [turnout gem](https://github.com/biola/turnout) which unfortunately hasn't been updated in 6+ years.
+---
 
-The gem name has been updated but everything internally is still `Turnout`.  Pull requests are more than welcome!
+![Gem Version](https://img.shields.io/gem/v/turnout2024)
+
+_This project is forked from the original [turnout gem](https://github.com/biola/turnout) which unfortunately hasn't been updated in 6+ years._
+
+Pull requests with tests are welcome!
 
 Features
 ========

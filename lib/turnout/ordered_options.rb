@@ -39,7 +39,7 @@ module Turnout
     end
 
     def method_missing(name, *args)
-      name_string = name.to_s
+      name_string = name.to_s.dup
       if name_string.chomp!('=')
         self[name_string] = args.first
       else
